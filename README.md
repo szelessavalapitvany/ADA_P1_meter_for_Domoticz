@@ -21,7 +21,7 @@ Manual installation
 Clone or copy the plugin into your Domoticz plugins directory:
 
 cd domoticz/plugins
-git clone <GITHUB_URL_TO_BE_ADDED> ADA_P1_Meter
+git clone https://github.com/szelessavalapitvany/ADA_P1_meter_for_Domoticz
 
 
 Restart Domoticz
@@ -87,7 +87,7 @@ Manuális telepítés
 Másold / klónozd a plugint a Domoticz plugin könyvtárába:
 
 cd domoticz/plugins
-git clone <KÉSŐBBI_GITHUB_URL> ADA_P1_Meter
+git clone https://github.com/szelessavalapitvany/ADA_P1_meter_for_Domoticz
 
 
 Indítsd újra a Domoticzot
