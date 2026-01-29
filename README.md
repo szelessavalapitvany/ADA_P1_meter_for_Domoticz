@@ -1,4 +1,4 @@
-# ADA_P1_meter_for_Domoticz
+domoticz-ada-p1-meter
 
 Python plugin for Domoticz to integrate the ADA P1 Meter smart energy meter
 (imported / exported energy, tariffs, power values).
@@ -63,6 +63,8 @@ git reset --hard <commit_hash>
 
 Restart Domoticz
 (or disable and re-enable the plugin under Setup → Hardware; browser cache cleanup may be required)
+
+#####################################################################################################
 
 domoticz-ada-p1-meter (magyarul)
 
