@@ -1,7 +1,8 @@
 domoticz-ada-p1-meter
 
 Python plugin for Domoticz to integrate the ADA P1 Meter smart energy meter
-(imported / exported energy, tariffs, power values).
+(imported / exported energy, tariffs, power values). 
+https://greenhess.com/p1-meter
 
 Prerequisites
 
@@ -70,6 +71,7 @@ domoticz-ada-p1-meter (magyarul)
 
 Python plugin Domoticzhoz, amely az ADA P1 Meter okosmérő integrációját valósítja meg
 (importált / exportált energia, tarifák, teljesítmény adatok).
+https://greenhess.com/p1-meter
 
 Előfeltételek
 
