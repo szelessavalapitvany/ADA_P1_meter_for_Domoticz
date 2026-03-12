@@ -224,7 +224,7 @@ class BasePlugin:
 			Domoticz.Device(Name= self.tl.t("Current Bl3"), Unit=38, Type=248, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(38, 0, "0"))
 		if 39 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Network frequency"), Unit=39, Type=248, Subtype=19, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Network frequency"), Unit=39, Type=243, Subtype=31, Options={"Custom": "1;Hz"}, Used=1).Create()
 			devicecreated.append(deviceparam(39, 0, "0"))
 		if 40 not in Devices:
 			Domoticz.Device(Name= self.tl.t("Power factor"), Unit=40, Type=243, Subtype=31, Options={"Custom": "1;cos φ"}, Used=1).Create()
