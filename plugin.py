@@ -140,7 +140,7 @@ class BasePlugin:
 			Domoticz.Device(Name= self.tl.t("Exported energy tariff 3"), Unit=10, Type=113, Subtype=0, Used=1).Create()
 			devicecreated.append(deviceparam(10, 0, "0"))
 		if 11 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Exported energy tariff 4"), Unit=11, Type=250, Subtype=1, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Exported energy tariff 4"), Unit=11, Type=113, Subtype=0, Used=1).Create()
 			devicecreated.append(deviceparam(11, 0, "0"))
 		if 12 not in Devices:
 			Domoticz.Device(Name= self.tl.t("Reactive imported energy"), Unit=12, Type=243, Subtype=31, Options={"Custom": "1;kVArh"}, Used=1).Create()
@@ -197,31 +197,31 @@ class BasePlugin:
 			Domoticz.Device(Name= self.tl.t("Reactive power QIV"), Unit=29, Type=243, Subtype=31, Options={"Custom": "1;kVArh"}, Used=1).Create()
 			devicecreated.append(deviceparam(29, 0, "0"))
 		if 30 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Voltage L1"), Unit=30, Type=248, Subtype=8, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Voltage L1"), Unit=30, Type=243, Subtype=8, Used=1).Create()
 			devicecreated.append(deviceparam(30, 0, "0"))
 		if 31 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Voltage L2"), Unit=31, Type=248, Subtype=8, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Voltage L2"), Unit=31, Type=243, Subtype=8, Used=1).Create()
 			devicecreated.append(deviceparam(31, 0, "0"))
 		if 32 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Voltage L3"), Unit=32, Type=248, Subtype=8, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Voltage L3"), Unit=32, Type=243, Subtype=8, Used=1).Create()
 			devicecreated.append(deviceparam(32, 0, "0"))
 		if 33 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Current L1"), Unit=33, Type=248, Subtype=23, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Current L1"), Unit=33, Type=243, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(33, 0, "0"))
 		if 34 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Current L2"), Unit=34, Type=248, Subtype=23, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Current L2"), Unit=34, Type=243, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(34, 0, "0"))
 		if 35 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Current L3"), Unit=35, Type=248, Subtype=23, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Current L3"), Unit=35, Type=243, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(35, 0, "0"))
 		if 36 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Current Bl1"), Unit=36, Type=248, Subtype=23, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Current Bl1"), Unit=36, Type=243, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(36, 0, "0"))
 		if 37 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Current Bl2"), Unit=37, Type=248, Subtype=23, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Current Bl2"), Unit=37, Type=243, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(37, 0, "0"))
 		if 38 not in Devices:
-			Domoticz.Device(Name= self.tl.t("Current Bl3"), Unit=38, Type=248, Subtype=23, Used=1).Create()
+			Domoticz.Device(Name= self.tl.t("Current Bl3"), Unit=38, Type=243, Subtype=23, Used=1).Create()
 			devicecreated.append(deviceparam(38, 0, "0"))
 		if 39 not in Devices:
 			Domoticz.Device(Name= self.tl.t("Network frequency"), Unit=39, Type=243, Subtype=31, Options={"Custom": "1;Hz"}, Used=1).Create()
