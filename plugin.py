@@ -1,7 +1,7 @@
 """
 ADA P1 meter python plugin for Domoticz
 Author: szelessavmuhely.hu,
-Version: 1.0.0 (januar 25, 2026) 
+Version: 1.1.0 (september 10, 2026) 
 
 <plugin key="ADA_P1_METER" name="ADA P1 meter - ADA P1 Bridge" author="szelessavmuhely.hu" version="1.0.0">
 	<description>
@@ -45,7 +45,6 @@ import itertools
 import re
 import os
 import heapq
-from distutils.version import LooseVersion
 
 class deviceparam:
 
